@@ -1,0 +1,11 @@
+{
+  "profiles": {
+    "ConsoleHost": {
+      "commandName": "Project",
+      "commandLineArgs": "-i E:\\Projects\\intercom-customers\\data\\customers.txt -o E:\\Projects\\intercom-customers\\src\\ConsoleHost\\bin\\Debug\\netcoreapp3.1\\output.txt"
+    },
+    "Docker (1)": {
+      "commandName": "Docker"
+    }
+  }
+}

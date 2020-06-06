@@ -1,0 +1,9 @@
+version: "3"
+services:
+  app:
+    build:
+      dockerfile: ./src/MyCustomers.Console/Dockerfile
+      context: ../
+    volumes: 
+      - ../data:/data
+    command: ["-i","/data/customers.txt", "-o", "/data/output.txt"]
