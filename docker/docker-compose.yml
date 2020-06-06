@@ -7,3 +7,4 @@ services:
     volumes: 
       - ../data:/data
     command: ["-i","/data/customers.txt", "-o", "/data/output.txt"]
+
